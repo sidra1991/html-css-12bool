@@ -1,0 +1,10 @@
+div[class*="col"] {
+
+    background-color: darkblue;
+    height: 2rem;
+    border: 1px solid darkgrey;
+} 
+
+.doppio div{
+    background-color: green;
+}
