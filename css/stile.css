@@ -1,10 +1,15 @@
 div[class*="col"] {
 
     background-color: darkblue;
-    height: 2rem;
     border: 1px solid darkgrey;
+    text-align: center;
+    color: white;
 } 
 
-.doppio div{
-    background-color: green;
+div[class*="space"] {
+    height: 1rem;
+} 
+
+.doppio{
+    background-color: green; 
 }

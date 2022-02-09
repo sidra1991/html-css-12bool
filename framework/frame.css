@@ -57,3 +57,54 @@
 .col-1 {
     width: calc(( 100% / 12 ) * 1);
 }
+
+/* pseudo margin */
+
+.space-12 {
+    width: calc(( 100% / 12 ) * 12);
+}
+
+.space-11 {
+    width: calc(( 100% / 12 ) * 11);
+}
+
+.space-10 {
+    width: calc(( 100% / 12 ) * 10);
+}
+
+.space-9 {
+    width: calc(( 100% / 12 ) * 9);
+}
+    
+.space-8 {
+    width: calc(( 100% / 12 ) * 8);
+}
+
+.space-7 {
+    width: calc(( 100% / 12 ) * 7);
+}
+
+.space-6 {
+    width: calc(( 100% / 12 ) * 6);
+}
+
+.space-5 {
+    width: calc(( 100% / 12 ) * 5);
+}
+
+.space-4 {
+    width: calc(( 100% / 12 ) * 4);
+}
+
+.space-3 {
+    width: calc(( 100% / 12 ) * 3);
+}
+
+.space-2 {
+    width: calc(( 100% / 12 ) * 2);
+}
+
+.space-1 {
+    width: calc(( 100% / 12 ) * 1);
+}
+
