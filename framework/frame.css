@@ -1,110 +1,121 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 .row {
     display: flex;
     flex-wrap:wrap ;
     width: 100%;
+    margin: 0 auto;
 }
 
 .col-12 {
     width: calc(( 100% / 12 ) * 12);
+    max-width: calc(( 100% / 12 ) * 12);
 }
 
 .col-11 {
     width: calc(( 100% / 12 ) * 11);
+    max-width: calc(( 100% / 12 ) * 11);
 }
 
 .col-10 {
     width: calc(( 100% / 12 ) * 10);
+    max-width: calc(( 100% / 12 ) * 10);
 }
 
 .col-9 {
     width: calc(( 100% / 12 ) * 9);
+    max-width: calc(( 100% / 12 ) * 9);
 }
     
 .col-8 {
     width: calc(( 100% / 12 ) * 8);
+    max-width: calc(( 100% / 12 ) * 8);
 }
 
 .col-7 {
     width: calc(( 100% / 12 ) * 7);
+    max-width: calc(( 100% / 12 ) * 7);
 }
 
 .col-6 {
     width: calc(( 100% / 12 ) * 6);
+    max-width: calc(( 100% / 12 ) * 6);
 }
 
 .col-5 {
     width: calc(( 100% / 12 ) * 5);
+    max-width: calc(( 100% / 12 ) * 5);
 }
 
 .col-4 {
     width: calc(( 100% / 12 ) * 4);
+    max-width: calc(( 100% / 12 ) * 4);
 }
 
 .col-3 {
     width: calc(( 100% / 12 ) * 3);
+    max-width: calc(( 100% / 12 ) * 3);
 }
 
 .col-2 {
     width: calc(( 100% / 12 ) * 2);
+    max-width: calc(( 100% / 12 ) * 2);
 }
 
 .col-1 {
     width: calc(( 100% / 12 ) * 1);
+    max-width: calc(( 100% / 12 ) * 1 );
 }
 
 /* pseudo margin */
 
-.space-12 {
-    width: calc(( 100% / 12 ) * 12);
+.col-ofset-12 {
+    margin-left: calc(( 100% / 12 ) * 12);
 }
 
-.space-11 {
-    width: calc(( 100% / 12 ) * 11);
+.col-ofset-11 {
+    margin-left: calc(( 100% / 12 ) * 11);
 }
 
-.space-10 {
-    width: calc(( 100% / 12 ) * 10);
+.col-ofset-10 {
+    margin-left: calc(( 100% / 12 ) * 10);
 }
 
-.space-9 {
-    width: calc(( 100% / 12 ) * 9);
+.col-ofset-9 {
+    margin-left: calc(( 100% / 12 ) * 9);
 }
     
-.space-8 {
-    width: calc(( 100% / 12 ) * 8);
+.col-ofset-8 {
+    margin-left: calc(( 100% / 12 ) * 8);
 }
 
-.space-7 {
-    width: calc(( 100% / 12 ) * 7);
+.col-ofset-7 {
+    margin-left: calc(( 100% / 12 ) * 7);
 }
 
-.space-6 {
-    width: calc(( 100% / 12 ) * 6);
+.col-ofset-6 {
+    margin-left: calc(( 100% / 12 ) * 6);
 }
 
-.space-5 {
-    width: calc(( 100% / 12 ) * 5);
+.col-ofset-5 {
+    margin-left: calc(( 100% / 12 ) * 5);
 }
 
-.space-4 {
-    width: calc(( 100% / 12 ) * 4);
+.col-ofset-4 {
+    margin-left: calc(( 100% / 12 ) * 4);
 }
 
-.space-3 {
-    width: calc(( 100% / 12 ) * 3);
+.col-ofset-3 {
+    margin-left: calc(( 100% / 12 ) * 3);
 }
 
-.space-2 {
-    width: calc(( 100% / 12 ) * 2);
+.col-ofset-2 {
+    margin-left: calc(( 100% / 12 ) * 2);
 }
 
-.space-1 {
-    width: calc(( 100% / 12 ) * 1);
+.col-ofset-1 {
+    margin-left: calc(( 100% / 12 ) * 1);
 }
 

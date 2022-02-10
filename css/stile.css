@@ -10,6 +10,6 @@ div[class*="space"] {
     height: 1rem;
 } 
 
-.doppio{
+.doppio div{
     background-color: green; 
 }
